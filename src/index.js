@@ -1,14 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './css/index.css';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+function setTitle() {
+    return "TO DO LIST APP";
+}
+
+function addTask(task) {
+
+};
+
+
+
+
+const title = ReactDOM.createRoot(document.getElementById('title'));
+title.render(
+    setTitle(),
 );
 
 // If you want to start measuring performance in your app, pass a function
